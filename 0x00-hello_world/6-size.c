@@ -9,17 +9,11 @@
 
 int main(void)
 {
-	int intType;
-	char charType;
-	long int longintType;
-	long long int longlongintType;
-	float floattype;
-	/* sizeoff evaluates the size of the file*/
-	printf("size of char: %zu bytes\n", sizeof(charType));
-	printf("size of int: %zu bytes\n", sizeof(intType));
-	printf("size of long int: %zu bytes\n", sizeof(longintType));
-	printf("size of long long int: %zu bytes\n", sizeof(longlongintType));
-	printf("size of float: %zu bytes\n", sizeof(floattype));
+	printf("size of char: %zu butes\n", sizeof(char));
+	printf("size of int: %zu bytes\n", sizeof(int));
+	printf("size of long int: %zu bytes\n", sizeof(long int));
+	printf("size of long long int: %zu bytes\n", sizeof(long long int));
+	printf("size of float: %zu bytes\n", sizeof(float));
 
 	return (0);
 }
